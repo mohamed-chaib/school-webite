@@ -1,0 +1,358 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>COMPUTER SCIENCE</title>
+    <style>
+        img {
+            position: fixed;
+            z-index: -1;
+            width: 100%;
+            height: 100%;
+            opacity: 0.6;
+        }
+
+        .container {
+            display: flex;
+            flex-direction: column;
+            padding-left: 4rem;
+
+            font-family: sans-serif;
+        }
+
+        header {
+            position: fixed;
+            z-index: 1;
+            top: 0;
+            left: 0;
+            border: 1px solid transparent;
+            border-bottom-left-radius: 8px;
+            border-bottom-right-radius: 8px;
+            background-color: #016ad3;
+            width: 100%;
+            height: 50px;
+            padding-bottom: 2rem;
+            padding-left: 4rem;
+            text-decoration: none;
+            color: #f0f8ff;
+
+        }
+
+        header>a {
+            text-decoration: none;
+            color: aliceblue;
+
+        }
+
+        article>h1 {
+            text-align: center;
+            font-size: 10rem;
+            color: #016ad3;
+            font-weight: bolder;
+
+        }
+
+        section>h1 {
+            color: #016ad3;
+            font-size: xx-large;
+            font-weight: 900;
+            font-style: italic;
+            text-align: center;
+            margin-bottom: 4rem;
+        }
+
+        p {
+            font-size: xx-large;
+            color: #3a7aba;
+            line-height: 1.5;
+            font-weight: 600;
+        }
+
+        ol {
+            font-weight: 700;
+            font-size: x-large;
+            color: #0079ea;
+            line-height: 2;
+        }
+
+        ul {
+            font-weight: 400;
+            font-size: x-large;
+            color: #0079ea;
+            line-height: 2;
+        }
+
+        .price {
+            display: inline-block;
+            flex-direction: column;
+            border: 1px solid transparent;
+            border-radius: 8px;
+            background-color: white;
+            margin-left: 35rem;
+            box-shadow: 3px 2px 5px gray;
+
+        }
+
+        .price-detail {
+            margin: 2rem;
+            display: flex;
+            gap: 1rem;
+            flex-direction: column;
+        }
+
+        .price-detail>h1 {
+            padding-top: 0;
+            display: inline;
+            color: #3a7aba;
+            font-weight: 700;
+            font-size: xx-large;
+            font-variant: small-caps;
+
+        }
+
+        .price-detail>span {
+            color: #3a7aba;
+            font-weight: 600;
+            font-size: xx-large;
+        }
+
+        .price-detail>a {
+
+            text-decoration: none;
+            padding: 0.5em 2em;
+            border-radius: 8px;
+            text-align: center;
+            border: 1px solid transparent;
+            font-weight: bold;
+            box-shadow: 1px 2px 5px gray;
+            background-color: rgb(1, 106, 211);
+            color: white;
+            transition: all 0.3, scale 0.2s;
+        }
+
+        .price-detail>a:hover {
+            background-color: white;
+            color: #016ad3;
+            border-color: #016ad3;
+        }
+
+        .price-detail>a:active {
+            scale: 0.95;
+
+        }
+    </style>
+</head>
+
+<body>
+    <img src="compiterScience.jpg" alt="">
+    <div class="container">
+
+        <header><a href="FORM.php">
+                <h1>BrainSchool</h1>
+            </a>
+        </header>
+
+        <article style="padding-top: 5rem;">
+            <h1>COMPUTER SCIENCE</h1>
+            <p>Unleash the power of technology! This computer
+                science course equips you with the skills to design software,
+                solve problems creatively, and understand the world of computing.</p>
+        </article>
+
+        <section class="sec1">
+            <h1>Beginner Course: Introduction to Computer Science
+
+            </h1>
+            <p>
+                This course lays the foundation for understanding computers, programming concepts, and problem-solving
+                approaches
+            </p>
+            <ol>
+                <li>
+                    Computers and Technology (1 week):
+
+                    <ul>
+                        <li>Understand the basic components of a computer and their functions (hardware & software).
+                        </li>
+                        <li>Explore history of computing and the impact of technology.</li>
+                    </ul>
+                </li>
+                <li>
+                    Problem-Solving Techniques (2 weeks):
+                    <ul>
+                        <li>Learn problem-solving strategies like decomposition, pattern recognition, and algorithm
+                            development.</li>
+                        <li>Practice applying these techniques to solve simple computational problems.
+                        </li>
+                    </ul>
+                </li>
+                <li>
+                    Introduction to Programming (3 weeks):
+                    <ul>
+                        <li>Explore fundamental programming concepts like variables, data types, operators, and control
+                            flow.</li>
+                        <li>Learn basic syntax and logic using a beginner-friendly programming language (e.g., Python,
+                            Scratch).</li>
+                    </ul>
+                </li>
+                <li>
+                    Computational Thinking (2 weeks):
+                    <ul>
+                        <li>Grasp the core principles of computational thinking: abstraction, decomposition, pattern
+                            recognition, and algorithms.</li>
+                        <li>Learn how to translate real-world problems into computer-understandable solutions.</li>
+                    </ul>
+                </li>
+                <li>
+                    Introduction to the Internet and Web Development (2 weeks):
+                    <ul>
+                        <li>Understand the basics of the internet, web browsing, and website creation.</li>
+                        <li>Learn simple HTML and CSS basics to build basic web pages. </li>
+                    </ul>
+                </li>
+            </ol>
+            <div class="price">
+                <div class="price-detail">
+                    <h1>Beginner</h1>
+                    <span>2000.00 DA</span>
+                    <a href="#">Get Started</a>
+                </div>
+            </div>
+
+            <hr>
+        </section class="sec2">
+        <section>
+            <h1>Intermediate Course: Programming Fundamentals and Applications </h1>
+            <p>
+                This course delves deeper into programming languages, data structures,
+                and algorithms, equipping students to build real-world applications.
+            </p>
+            <ol>
+                <li>Programming Language Deep Dive (3 weeks):
+
+                    <ul>
+                        <li> Build upon the beginner course by mastering core programming concepts (functions, loops,
+                            conditionals) in more depth</li>
+                        <li> Explore intermediate features of the chosen programming language.</li>
+                    </ul>
+                </li>
+                <li>
+
+                    Data Structures and Algorithms (4 weeks):
+
+                    <ul>
+                        <li> Learn about fundamental data structures (lists, arrays, stacks, queues) and their usage
+                            scenarios. </li>
+                        <li> Understand different algorithm design techniques (sorting, searching) and their efficiency.
+                        </li>
+                    </ul>
+                </li>
+                <li>
+                    Introduction to Object-Oriented Programming (OOP) Concepts (3 weeks):
+                    <ul>
+                        <li>Grasp the core concepts of OOP (classes, objects, inheritance, polymorphism) and their
+                            benefits for code organization and reuse.</li>
+                        <li>Start implementing basic OOP principles in your code.</li>
+                    </ul>
+                </li>
+                <li>
+
+                    Building Web Applications (3 weeks):
+
+                    <ul>
+                        <li>Explore frameworks or libraries for building dynamic web applications (e.g., JavaScript
+                            frameworks, server-side languages).</li>
+                        <li>Develop interactive web applications using the chosen technologies.</li>
+
+                    </ul>
+                </li>
+                <li>
+                    Database Management Systems (2 weeks):
+                    <ul>
+
+                        <li>Introduction to databases, SQL (Structured Query Language) for data manipulation and
+                            retrieval.</li>
+                        <li>Learn how to design and manage databases for storing and querying data.</li>
+                    </ul>
+                </li>
+            </ol>
+            <div class="price">
+                <div class="price-detail">
+                    <h1>Intermediate</h1>
+                    <span>4000.00 DA</span>
+                    <a href="#">Get Started</a>
+                </div>
+            </div>
+            <hr>
+        </section class="sec3">
+
+        <section>
+            <h1>Advanced Course: Advanced Programming and Computer Science
+
+            </h1>
+            <p>
+                This course explores advanced topics like object-oriented programming,
+                computer architecture, and theoretical foundations.
+            </p>
+            <ol>
+                <li>
+                    Object-Oriented Programming (OOP) Mastery (3 weeks):
+                    <ul>
+
+                        <li>Deep dive into advanced OOP concepts like design patterns, exception handling, and advanced
+                            object-oriented design principles. </li>
+                        <li>Work on complex object-oriented program design and implementation. </li>
+                        .
+                    </ul>
+                </li>
+                <li>
+                    Algorithms and Data Structures Analysis (4 weeks):
+                    <ul>
+                        <li> Learn about algorithm analysis (time and space complexity) and Big O notation. </li>
+                        <li> Explore advanced data structures like trees, graphs, and hash tables. </li>
+                        <li> Design and analyze algorithms for solving complex problems. </li>
+
+                    </ul>
+                </li>
+                <li>
+                    Computer Architecture and Operating Systems (3 weeks):
+
+                    <ul>
+                        <li> Understand the fundamental principles of computer architecture, hardware components, and
+                            their interaction. </li>
+                        <li> Explore basic concepts of operating systems, including memory management, process
+                            management, and file systems. </li>
+                    </ul>
+                </li>
+                <li>
+                    Software Engineering and Design (3 weeks):
+                    <ul>
+                        <li>Learn about software development methodologies (e.g., Agile, Waterfall), version control
+                            systems (e.g., Git), and software design principles. </li>
+                        <li> Explore techniques for building maintainable and scalable software applications.
+                        </li>
+                    </ul>
+                </li>
+                <li>
+                    Machine Learning and Artificial Intelligence (2 weeks): (Optional)
+                    <ul>
+                        <li>Introduction to fundamental concepts of machine learning and artificial intelligence. </li>
+                        <li>Build simple machine learning models using tools like libraries or frameworks. </li>
+                    </ul>
+                </li>
+            </ol>
+            <div class="price">
+                <div class="price-detail">
+                    <h1>Advanced</h1>
+                    <span>6000.00 DA</span>
+                    <a href="#">Get Started</a>
+                </div>
+            </div>
+        </section>
+
+    </div>
+</body>
+
+</html>

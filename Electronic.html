@@ -1,0 +1,346 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ELECTRONIC</title>
+    <style>
+        img {
+            position: fixed;
+            z-index: -1;
+            width: 100%;
+            height: 100%;
+            opacity: 0.3;
+        }
+
+        .container {
+            display: flex;
+            flex-direction: column;
+            padding-left: 4rem;
+
+            font-family: sans-serif;
+        }
+
+        header {
+            position: fixed;
+            z-index: 1;
+            top: 0;
+            left: 0;
+            border: 1px solid transparent;
+            border-bottom-left-radius: 8px;
+            border-bottom-right-radius: 8px;
+            background-color: #016ad3;
+            width: 100%;
+            height: 50px;
+            padding-bottom: 2rem;
+            padding-left: 4rem;
+            text-decoration: none;
+            color: #f0f8ff;
+
+        }
+
+        header>a {
+            text-decoration: none;
+            color: aliceblue;
+
+        }
+
+        article>h1 {
+            text-align: center;
+            font-size: 10rem;
+            color: #016ad3;
+            font-weight: bolder;
+
+        }
+
+        section>h1 {
+            color: #016ad3;
+            font-size: xx-large;
+            font-weight: 900;
+            font-style: italic;
+            text-align: center;
+            margin-bottom: 4rem;
+        }
+
+        p {
+            font-size: xx-large;
+            color: #3a7aba;
+            line-height: 1.5;
+            font-weight: 600;
+        }
+
+        ol {
+            font-weight: 700;
+            font-size: x-large;
+            color: #0079ea;
+            line-height: 2;
+        }
+
+        ul {
+            font-weight: 400;
+            font-size: x-large;
+            color: #0079ea;
+            line-height: 2;
+        }
+
+        .price {
+            display: inline-block;
+            flex-direction: column;
+            border: 1px solid transparent;
+            border-radius: 8px;
+            background-color: white;
+            margin-left: 35rem;
+            box-shadow: 3px 2px 5px gray;
+
+        }
+
+        .price-detail {
+            margin: 2rem;
+            display: flex;
+            gap: 1rem;
+            flex-direction: column;
+        }
+
+        .price-detail>h1 {
+            padding-top: 0;
+            display: inline;
+            color: #3a7aba;
+            font-weight: 700;
+            font-size: xx-large;
+            font-variant: small-caps;
+
+        }
+
+        .price-detail>span {
+            color: #3a7aba;
+            font-weight: 600;
+            font-size: xx-large;
+        }
+
+        .price-detail>a {
+
+            text-decoration: none;
+            padding: 0.5em 2em;
+            border-radius: 8px;
+            text-align: center;
+            border: 1px solid transparent;
+            font-weight: bold;
+            box-shadow: 1px 2px 5px gray;
+            background-color: rgb(1, 106, 211);
+            color: white;
+            transition: all 0.3, scale 0.2s;
+        }
+
+        .price-detail>a:hover {
+            background-color: white;
+            color: #016ad3;
+            border-color: #016ad3;
+        }
+
+        .price-detail>a:active {
+            scale: 0.95;
+
+        }
+    </style>
+</head>
+
+<body>
+    <img src="header.jpeg" alt="">
+    <div class="container">
+
+        <header><a href="FORM.php">
+                <h1>BrainSchool</h1>
+            </a>
+        </header>
+
+        <article style="padding-top: 5rem;">
+            <h1>ELECTRONIC</h1>
+            <p>Ever wondered how your gadgets work? <br>
+                Want to build your own circuits and bring electronics to life? <br>
+                This course series is your roadmap to mastering the fascinating world of electronics!</p>
+        </article>
+
+        <section class="sec1">
+            <h1>Beginner Course: Demystifying Electronics
+
+            </h1>
+            <p>
+                Ignite your interest in electronics by exploring fundamental components, circuits, and their behavior.
+            </p>
+            <ol>
+                <li>
+                    Electronics Fundamentals (1 week):
+
+                    <ul>
+                        <li>Understand the basics of electricity (voltage, current, resistance). </li>
+                        <li>Discover the building blocks of electronics (resistors, capacitors, inductors).
+                        </li>
+                    </ul>
+                </li>
+                <li>
+                    Electronic Circuits (2 weeks):
+                    <ul>
+                        <li>Explore how components are connected to form circuits. </li>
+                        <li>Learn about circuit analysis techniques (Ohm's Law, Kirchhoff's Laws). </li>
+                    </ul>
+                </li>
+                <li>
+                    Introduction to Tools and Equipment (1 week):
+                    <ul>
+                        <li>Get familiar with basic electronic tools (multimeter, breadboard).</li>
+                        <li>Practice safe and effective usage of electronic equipment.</li>
+                    </ul>
+                </li>
+                <li>
+                    Digital vs. Analog Electronics (1 week):
+                    <ul>
+                        <li>Grasp the differences between digital and analog electronic signals.</li>
+                        <li>Explore basic digital logic gates (AND, OR, NOT). </li>
+                    </ul>
+                </li>
+                <li>
+                    Introduction to Semiconductors (1 week):
+                    <ul>
+                        <li>Understand the fundamental properties of semiconductors (diodes, transistors). </li>
+                        <li>Learn how semiconductors are used to control current flow. </li>
+                    </ul>
+                </li>
+            </ol>
+            <div class="price">
+                <div class="price-detail">
+                    <h1>Beginner</h1>
+                    <span>2000.00 DA</span>
+                    <a href="#">Get Started</a>
+                </div>
+            </div>
+
+            <hr>
+        </section class="sec2">
+        <section>
+            <h1>Intermediate Course: Building Electronic Circuits </h1>
+            <p>
+                Deepen your understanding by constructing and analyzing practical electronic
+                circuits with active and passive components.
+            </p>
+            <ol>
+                <li>Passive Components in Action (2 weeks):
+                    <ul>
+                        <li> Design and analyze circuits using various resistor combinations. </li>
+                        <li> Understand how capacitors and inductors store and release energy. </li>
+                    </ul>
+                </li>
+                <li>
+
+                    Introduction to Operational Amplifiers (Op-Amps) (2 weeks):
+
+                    <ul>
+                        <li> Learn about the functionality and applications of Op-Amps (voltage amplifiers,
+                            comparators).</li>
+                        <li> Build and analyze circuits using Op-Amps.</li>
+                    </ul>
+                </li>
+
+                <li>
+
+                    Digital Electronics Deep Dive (2 weeks):
+
+                    <ul>
+                        <li>Explore combinational logic circuits (adders, subtractors, decoders).</li>
+                        <li>Introduction to sequential logic circuits (flip-flops, counters).</li>
+
+                    </ul>
+                </li>
+                <li>
+                    Introduction to Microcontrollers (2 weeks):
+                    <ul>
+
+                        <li>Understand the basic architecture and functionalities of microcontrollers.</li>
+                        <li>Learn simple programming techniques for interfacing with microcontrollers.
+                        </li>
+                    </ul>
+                </li>
+                <li>
+                    Building Practical Projects (2 weeks):
+                    <ul>
+                        <li>Design and build real-world projects using acquired knowledge and skills (e.g., simple
+                            amplifiers, LED blinkers).</li>
+                    </ul>
+                </li>
+            </ol>
+            <div class="price">
+                <div class="price-detail">
+                    <h1>Intermediate</h1>
+                    <span>4000.00 DA</span>
+                    <a href="#">Get Started</a>
+                </div>
+            </div>
+            <hr>
+        </section class="sec3">
+
+        <section>
+            <h1>Advanced Course: Mastering Electronics
+
+            </h1>
+            <p>
+                Delve into advanced electronics concepts, design and troubleshoot complex circuits,
+                and explore real-world applications.
+            </p>
+            <ol>
+                <li>
+                    Analog Circuit Design and Analysis (3 weeks):
+                    <ul>
+
+                        <li>Design and analyze complex analog circuits (filters, oscillators, power supplies). </li>
+                        <li>Explore advanced analysis techniques like frequency response and Bode plots. </li>
+                        .
+                    </ul>
+                </li>
+                <li>
+                    Digital System Design (3 weeks):
+                    <ul>
+                        <li> Design and analyze complex digital circuits using programmable logic devices (PLDs). </li>
+                        <li> Understand state machines and their applications in digital systems. </li>
+
+                    </ul>
+                </li>
+                <li>
+                    Microcontroller Programming and Interfacing (3 weeks):
+
+                    <ul>
+                        <li> Learn advanced programming techniques for microcontrollers (e.g., C programming for
+                            embedded systems). </li>
+                        <li> Design and build projects interfacing various sensors and actuators with microcontrollers.
+                        </li>
+                    </ul>
+                </li>
+                <li>
+                    Communication Protocols (2 weeks):
+                    <ul>
+                        <li>Explore communication protocols (I2C, SPI) used for data transfer between electronic
+                            devices. </li>
+                        <li> Design circuits that utilize communication protocols. </li>
+                    </ul>
+                </li>
+                <li>
+                    Introduction to Electronics Design Automation (EDA) (2 weeks):
+                    <ul>
+                        <li>Understand the basics of electronic design automation (EDA) tools for circuit simulation and
+                            PCB design. </li>
+                        <li>Learn to use EDA software to design and analyze complex electronic circuits. </li>
+                    </ul>
+                </li>
+            </ol>
+            <div class="price">
+                <div class="price-detail">
+                    <h1>Advanced</h1>
+                    <span>6000.00 DA</span>
+                    <a href="#">Get Started</a>
+                </div>
+            </div>
+        </section>
+
+    </div>
+</body>
+
+</html>

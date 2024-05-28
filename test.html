@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+
+    <title>Document</title>
+
+
+</head>
+
+<body>
+
+    <div class="container">
+
+        <header class="container1"><i class="fa-solid fa-face-laugh"></i>
+            <h1 style="display: inline; font-family:sans-serif ; font-weight:bold ;;">BrainSchool</h1>
+        </header>
+
+        <nav class="container2">
+            <i class="fa-solid fa-face-laugh"> </i><span>Name : <br></span>
+            <i class="fa-solid fa-face-laugh"> </i><span>Group : <br></span>
+            <i class="fa-light fa-square-envelope" style="color: #292929;  width: 5px;"></i> </i><span>E-mail :
+                <br></span>
+            <i class="fa-solid fa-face-laugh"> </i><span>Name : <br></span>
+        </nav>
+        <section class="container3">
+            <div class="desc">
+                <h1>Brainer School</h1>
+                we are a School focus to grow up the level of our etudiant with focus a pratical leaning
+            </div>
+            <div class="formation">
+                <article class="marketing">
+
+                    <img src="download.jfif" alt=""> <br>
+                    <h2>
+                        MARKETING COURSE
+                    </h2><br>
+                    <h3>
+                        Master marketing essentials, crafting impactful <br>
+                        strategies to engage audiences <br>
+                        and drive business growth.
+                    </h3> <br>
+                    <a class="butt" href="marketing.html">SIGN UP NOW </a>
+                </article>
+                <article class="marketing">
+
+                    <img src="" alt=""> <br>
+                    <h2>
+                        MARKETING COURSE
+                    </h2><br>
+                    <h3>
+                        Master marketing essentials, crafting impactful <br>
+                        strategies to engage audiences <br>
+                        and drive business growth.
+                    </h3> <br>
+                    <a class="butt" href="computerSxience.html">SIGN UP NOW </a>
+                </article>
+                <article class="marketing">
+
+                    <img src="" alt=""> <br>
+                    <h2>
+                        COMPUTER SCIENCE COURSE
+                    </h2><br>
+                    <h3>
+                        Master marketing essentials, crafting impactful <br>
+                        strategies to engage audiences <br>
+                        and drive business growth.
+                    </h3> <br>
+                    <a class="butt" href="#">SIGN UP NOW</a>
+                </article>
+            </div>
+            <aside>
+                <img class="slides" src="download.png" alt="">
+                <img class="slides" src="C:\Users\acer\Downloads\download.jfif" alt="">
+                <img class="slides" src="C:\Users\acer\Downloads\download.jfif" alt="">
+                <img class="slides" src="C:\Users\acer\Downloads\download.jfif" alt="">
+
+            </aside>
+
+        </section>
+        <section class="container4">
+            <button onclick="addCommunt()" class="form-submit-button" id="add-comment-btn">ADD COMMENT</button>
+            <div cl></div>
+            <div id="comment-form" class="comment-form" class="hidden">
+                <form class="form" method="post" action="setComment.php">
+                    <div class="form-group">
+                        <label for="email">Email :</label>
+                        <input type="email" id="email" name="email" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="comment">Comment :</label>
+                        <textarea id="comment" name="comment" required></textarea>
+                    </div>
+
+
+                    <input class="form-submit-button" onclick="removeForm()" type="submit"></input>
+                </form>
+            </div>
+        </section>
+    </div>
+    <script type="text/javaScript" src="main.js">
+  </script>
+</body>
+
+</html>

@@ -1,0 +1,355 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MARKETING</title>
+    <style>
+        img {
+            position: fixed;
+            z-index: -1;
+            width: 100%;
+            height: 100%;
+            opacity: 0.2;
+        }
+
+        .container {
+            display: flex;
+            flex-direction: column;
+            padding-left: 4rem;
+
+            font-family: sans-serif;
+        }
+
+        header {
+            position: fixed;
+            z-index: 1;
+            top: 0;
+            left: 0;
+            border: 1px solid transparent;
+            border-bottom-left-radius: 8px;
+            border-bottom-right-radius: 8px;
+            background-color: #016ad3;
+            width: 100%;
+            height: 50px;
+            padding-bottom: 2rem;
+            padding-left: 4rem;
+            text-decoration: none;
+            color: #f0f8ff;
+
+        }
+
+        header>a {
+            text-decoration: none;
+            color: aliceblue;
+
+        }
+
+        article>h1 {
+            text-align: center;
+            font-size: 10rem;
+            color: #016ad3;
+            font-weight: bolder;
+
+        }
+
+        section>h1 {
+            color: #016ad3;
+            font-size: xx-large;
+            font-weight: 900;
+            font-style: italic;
+            text-align: center;
+            margin-bottom: 4rem;
+        }
+
+        p {
+            font-size: xx-large;
+            color: #3a7aba;
+            line-height: 1.5;
+            font-weight: 600;
+        }
+
+        ol {
+            font-weight: 700;
+            font-size: x-large;
+            color: #0079ea;
+            line-height: 2;
+        }
+
+        ul {
+            font-weight: 400;
+            font-size: x-large;
+            color: #0079ea;
+            line-height: 2;
+        }
+
+        .price {
+            display: inline-block;
+            flex-direction: column;
+            border: 1px solid transparent;
+            border-radius: 8px;
+            background-color: white;
+            margin-left: 35rem;
+            box-shadow: 3px 2px 5px gray;
+
+        }
+
+        .price-detail {
+            margin: 2rem;
+            display: flex;
+            gap: 1rem;
+            flex-direction: column;
+        }
+
+        .price-detail>h1 {
+            padding-top: 0;
+            display: inline;
+            color: #3a7aba;
+            font-weight: 700;
+            font-size: xx-large;
+            font-variant: small-caps;
+
+        }
+
+        .price-detail>span {
+            color: #3a7aba;
+            font-weight: 600;
+            font-size: xx-large;
+        }
+
+        .price-detail>a {
+
+            text-decoration: none;
+            padding: 0.5em 2em;
+            border-radius: 8px;
+            text-align: center;
+            border: 1px solid transparent;
+            font-weight: bold;
+            box-shadow: 1px 2px 5px gray;
+            background-color: rgb(1, 106, 211);
+            color: white;
+            transition: all 0.3, scale 0.2s;
+        }
+
+        .price-detail>a:hover {
+            background-color: white;
+            color: #016ad3;
+            border-color: #016ad3;
+        }
+
+        .price-detail>a:active {
+            scale: 0.95;
+
+        }
+    </style>
+</head>
+
+<body>
+    <img src="marketing.jpg" alt="">
+    <div class="container">
+
+        <header><a href="FORM.php">
+                <h1>BrainSchool</h1>
+            </a>
+        </header>
+
+        <article style="padding-top: 5rem;">
+            <h1>MARKETING</h1>
+            <p>Are you ready to embark on a journey towards mastering the art and science of marketing? Our Marketing
+                Mastery Course offers a comprehensive curriculum designed to empower individuals at every stage of their
+                marketing journey,
+                whether you're just starting out or looking to refine your advanced strategies.</p>
+        </article>
+
+        <section class="sec1">
+            <h1>Beginner Course: Marketing Fundamentals
+
+            </h1>
+            <p>
+                In the beginner level of our course, we lay down the solid foundation of marketing principles. <br>
+                From understanding consumer behavior to grasping the fundamentals of digital marketing channels, this
+                module equips you with essential knowledge to kickstart your marketing career. <br>
+                Through interactive lectures, case studies,and practical exercises, you'll gain insights into crafting
+                compelling marketing messages,
+                leveraging social media platforms, and developing basic marketing strategies to reach your target
+                audience.
+            </p>
+            <ol>
+                <li>
+                    Introduction to Marketing :
+                    <ul>
+                        <li>Understand the core concepts of marketing and its role in business.</li>
+                        <li>Explore different marketing channels and strategies.</li>
+                    </ul>
+                </li>
+                <li>
+                    Understanding Your Customers:
+                    <ul>
+                        <li>Learn about market research and customer segmentation.</li>
+                        <li>Discover techniques to identify customer needs and wants.</li>
+                    </ul>
+                </li>
+                <li>
+                    The Marketing Mix (4Ps):
+                    <ul>
+                        <li>Grasp the four key elements of marketing strategy: product, price, place, and promotion.
+                        </li>
+                        <li>See how these elements work together to create a successful marketing plan.</li>
+                    </ul>
+                </li>
+                <li>
+                    Building Your Brand:
+                    <ul>
+                        <li>Develop an understanding of branding principles.</li>
+                        <li>Learn how to create a strong brand identity and messaging.</li>
+                    </ul>
+                </li>
+                <li>
+                    Marketing Communications:
+                    <ul>
+                        <li>Explore different communication channels used in marketing (e.g., advertising, social
+                            media).</li>
+                        <li>Discover how to craft compelling marketing messages.</li>
+                    </ul>
+                </li>
+            </ol>
+            <div class="price">
+                <div class="price-detail">
+                    <h1>Beginner</h1>
+                    <span>2000.00 DA</span>
+                    <a href="#">Get Started</a>
+                </div>
+            </div>
+
+            <hr>
+        </section class="sec2">
+        <section>
+            <h1>Intermediate Course: Marketing Implementation </h1>
+            <p>
+                Once you've mastered the basics, it's time to dive deeper into strategic marketing techniques. Our
+                intermediate level course delves into the intricacies of market segmentation, competitive analysis, and
+                brand positioning. You'll learn how to create data-driven marketing strategies, optimize marketing
+                campaigns for maximum ROI, and harness the power of analytics tools to track and measure your success.
+                With hands-on projects and workshops,
+                you'll refine your skills in crafting marketing plans that drive real business results.
+            </p>
+            <ol>
+                <li>Content Marketing:
+                    <ul>
+                        <li> Understand the power of content marketing and its role in attracting customers.</li>
+                        <li> Learn how to create valuable and engaging content.</li>
+                    </ul>
+                </li>
+                <li>
+
+                    Social Media Marketing:
+                    <ul>
+                        <li> Grasp the importance of social media for brand awareness and customer engagement.
+                        <li> Explore strategies for building a strong social media presence.</li>
+                    </ul>
+                </li>
+                <li>
+                    Search Engine Optimization (SEO):
+                    <ul>
+                        <li>Discover how to optimize your website for search engines to improve organic traffic.</li>
+                        <li>Learn about keyword research and on-page optimization techniques.</li>
+                    </ul>
+                </li>
+                <li>
+
+                    Email Marketing:
+                    <ul>
+                        <li>Understand the value of email marketing for building relationships and promoting products.
+                        </li>
+                        <li></li>Learn best practices for building email lists and crafting effective email campaigns.
+                </li>
+
+                </ul>
+                </li>
+                <li>
+                    Marketing Analytics:
+                    <ul>
+
+                        <li>Explore key marketing metrics and how to track campaign performance.</li>
+                        <li></li>Learn how to analyze data to make informed marketing decisions.
+                </li>
+                </ul>
+                </li>
+            </ol>
+            <div class="price">
+                <div class="price-detail">
+                    <h1>Intermediate</h1>
+                    <span>4000.00 DA</span>
+                    <a href="#">Get Started</a>
+                </div>
+            </div>
+            <hr>
+        </section class="sec3">
+
+        <section>
+            <h1>Advanced Course: Advanced Marketing Strategies
+
+            </h1>
+            <p>
+                In the advanced level of our course, we push the boundaries of traditional marketing approaches and
+                explore innovative strategies to stay ahead in today's dynamic landscape. From advanced digital
+                marketing tactics to futuristic concepts like AI-powered marketing automation, you'll explore the latest
+                trends and technologies shaping the future of marketing. Through advanced case studies and simulation
+                exercises,
+                you'll develop the expertise to lead groundbreaking marketing initiatives and drive transformative
+                growth for your organization.
+            </p>
+            <ol>
+                <li>
+                    Digital Marketing Trends:
+                    <ul>
+
+                        <li>Stay up-to-date on the latest digital marketing trends and technologies.</li>
+                        <li>Explore emerging channels like influencer marketing and marketing automation</li>
+                        .
+                    </ul>
+                </li>
+                <li>
+                    Customer Relationship Management (CRM):
+                    <ul>
+                        <li> Understand how CRM can streamline customer interactions and improve customer retention.
+                        </li>
+                        <li> Learn best practices for implementing and utilizing a CRM system.</li>
+                    </ul>
+                </li>
+                <li>
+                    Marketing for Specific Industries:
+                    <ul>
+                        <li> Deep dive into marketing strategies for specific industries (e.g., B2B, e-commerce).</li>
+                        <li> Learn about industry-specific challenges and best practices.</li>
+                    </ul>
+                </li>
+                <li>
+                    Global Marketing:
+                    <ul>
+                        <li>Explore the nuances of marketing across international borders.</li>
+                        <li> Discover strategies for adapting your marketing approach for different cultures.</li>
+                    </ul>
+                </li>
+                <li>
+                    Marketing ROI and Budgeting:
+                    <ul>
+                        <li>Learn how to measure the return on investment (ROI) of your marketing activities.</li>
+                        <li>Develop effective strategies for marketing budget allocation and optimization.</li>
+                    </ul>
+                </li>
+            </ol>
+            <div class="price">
+                <div class="price-detail">
+                    <h1>Advanced</h1>
+                    <span>6000.00 DA</span>
+                    <a href="#">Get Started</a>
+                </div>
+            </div>
+        </section>
+
+    </div>
+</body>
+
+</html>
